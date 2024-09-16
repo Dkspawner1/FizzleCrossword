@@ -37,3 +37,11 @@ public enum SCENES : byte
     // Removing a flag
     // activeScenes &= ~SCENES.MENU;
 }
+
+[Flags]
+public enum Orientation : byte
+{
+    DOWN = 1 << 0,
+    ACROSS = 1 << 1,
+
+}

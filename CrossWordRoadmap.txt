@@ -1,0 +1,59 @@
+Crossword With ECS:
+
+
+Static Helper Class:
+  Enums:
+    [Flags]
+    Enum Orientation {ACROSS =0x1, DOWN = 0x2}
+  Input:
+    KeyboardState kb,oldKb
+    MouseState ms,oldMs
+    Rectangle mouseRect
+    public static bool IsNewKeyPress(Keys key) => kb.IsKeyDown(key) && oldKb.IsKeyUp(key);
+    public static bool IsNewMouseClick(ButtonState button) => ms.LeftButton == button && oldMs.LeftButton != button;   
+
+Components:
+  GameStateComponent:
+    bool finished
+    float ElapsedTime
+    int Score
+  UIComponent:
+    Rectangle ClueBox{get;set;}
+    Rectangle ScoreBox{get;set;}
+    Rectangle TimerBox{get;set;}
+    
+  LetterComponent:
+    ctor: public readonly record struct LetterComponent(char letter, char guess, bool correct, Vector2 position)
+  WordComponent
+    ctor: public readonly record struct WordComponent(string word, Vector2 positon, Orientation orientation, int number)
+    List<string> Clues {get; init;] = [];
+    List<LetterComponent> Letters{get;init;} = [];
+    bool IsWordCompleted() => Letters.all(l => l.Correct);
+  CrossWordComponent:
+    SpriteFont Font
+    Dictionary<Vector2, LetterComponent> Grid {get;set;} =[];
+    List<WordComponent> Words {get;set;}
+    Vector2 GridSize {get;set;}
+    float CellSize {get;set;}
+    bool IsPuzzleCompleted() => Words.All(w => w.Letters.All(l => l.Correct))
+ 
+    
+Entities:
+  CrossWordPuzzle:
+  
+Systems:
+  CrosswordGenerationSystem:
+    Create the crossword puzzle
+  ClueManagementSystem:
+    Handles clues for display and interaction
+  RenderSystem
+  UpdateWordSystem/ProcessWordSystem
+  InputSystem:
+    Handles mouse and keyboard updates
+  [Optional] EventSystem:
+   public static event Action<WordComponent> WordCompleted
+   public static event Action PuzzleCompleted
+   public static void TriggerWordCompleted(WordComponent word) => WordCompleted?.invoke(word);
+   public static void TriggerPuzzleCompleted() => PuzzleCompleted?.invoke();
+    
+

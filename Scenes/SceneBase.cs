@@ -7,6 +7,7 @@ using FizzleCrossword.DebugGUI;
 using MonoGame.Extended.ECS.Systems;
 using MonoGame.Extended.Screens;
 using MonoGame.Extended.Screens.Transitions;
+using MonoGame.Extended.Graphics;
 
 namespace FizzleCrossword.Scenes;
 

@@ -3,6 +3,8 @@ using FizzleCrossword.ECS.Systems;
 using FizzleCrossword.Managers;
 using FizzleCrossword.DebugGUI.Attributes;
 using MonoGame.Extended.ECS.Systems;
+using Microsoft.Xna.Framework.Content;
+using MonoGame.Extended.Graphics;
 
 namespace FizzleCrossword.Scenes;
 public class GameScene : SceneBase
@@ -30,8 +32,7 @@ public class GameScene : SceneBase
 
     protected override void DrawScene(GameTime gameTime)
     {
-        // Add game-specific drawing logic here
-        // This will only be called after the fade-in transition is complete
+
     }
 
 
@@ -40,6 +41,17 @@ public class GameScene : SceneBase
         // Implement your debug drawing logic here
         // For example:
         spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+
     }
 
 }

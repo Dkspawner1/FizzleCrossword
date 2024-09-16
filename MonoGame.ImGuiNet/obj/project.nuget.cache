@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ljXAhpAD3P+0EgZkpi4aHQRdpqfmrV4x7uPVtWHiGxU97oz1deQVNJY3AOO5umRzE6rNzazzsRNa7Q5pWg+XYg==",
+  "dgSpecHash": "nNGAl3SV2i8=",
   "success": true,
-  "projectFilePath": "/home/dorll/Desktop/c#/FizzleCrossword/MonoGame.ImGuiNet/Monogame.ImGuiNet.csproj",
+  "projectFilePath": "C:\\Users\\Nicholas\\Desktop\\C#\\FizzleCrossword\\MonoGame.ImGuiNet\\Monogame.ImGuiNet.csproj",
   "expectedPackageFiles": [
-    "/home/dorll/.nuget/packages/imgui.net/1.90.1.1/imgui.net.1.90.1.1.nupkg.sha512",
-    "/home/dorll/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "/home/dorll/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
-    "/home/dorll/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/home/dorll/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
-    "/home/dorll/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
-    "/home/dorll/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+    "C:\\Users\\Nicholas\\.nuget\\packages\\imgui.net\\1.90.1.1\\imgui.net.1.90.1.1.nupkg.sha512",
+    "C:\\Users\\Nicholas\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Nicholas\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Nicholas\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Nicholas\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Nicholas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Fonts/wordfont.spritefont","C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Fonts/wordfont.xnb","LocalizedFontProcessor","SpriteFontContent",2497,940,0.1684939
+"C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/Summer1.png","C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/Summer1.xnb","TextureProcessor","Texture2DContent",75354,11944021,0.3023108

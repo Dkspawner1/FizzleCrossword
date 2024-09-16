@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Fonts/wordfont.spritefont</SourceFile>
+  <SourceTime>2024-09-16T16:34:51.6081819-04:00</SourceTime>
+  <DestFile>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Fonts/wordfont.xnb</DestFile>
+  <DestTime>2024-09-16T16:45:59.5447584-04:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
+  <Processor>LocalizedFontProcessor</Processor>
+  <ProcessorTime>2024-08-16T13:05:56-04:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

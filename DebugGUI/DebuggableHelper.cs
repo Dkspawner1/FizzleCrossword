@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using FizzleMonogameTemplate.DebugGUI.Attributes;
+using FizzleCrossword.DebugGUI.Attributes;
 
-namespace FizzleMonogameTemplate.DebugGUI;
+namespace FizzleCrossword.DebugGUI;
 public static class DebuggableHelper
 {
     public static List<DebugProperty> GetDebugProperties(object obj, bool includeInherited = true)

@@ -1,7 +1,7 @@
 
 using System;
 
-namespace FizzleMonogameTemplate.DebugGUI.Attributes;
+namespace FizzleCrossword.DebugGUI.Attributes;
 [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, Inherited = true)]
 public class DebugVariableAttribute : Attribute
 {

@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
-using FizzleGame.Managers;
-using FizzleMonogameTemplate.DebugGUI;
+using FizzleCrossword.Managers;
+using FizzleCrossword.DebugGUI;
 using MonoGame.Extended.ECS.Systems;
 using MonoGame.Extended.Screens;
 using MonoGame.Extended.Screens.Transitions;
 
-namespace FizzleGame.Scenes;
+namespace FizzleCrossword.Scenes;
 
 public abstract class SceneBase(Game1 game, SceneManager sceneManager, [Optional] IEnumerable<Func<SpriteBatch, ISystem>> systems) : Screen, IDebuggable
 {

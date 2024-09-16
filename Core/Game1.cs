@@ -1,12 +1,12 @@
 using MonoGame.Extended.Screens;
-using FizzleMonogameTemplate.DebugGUI;
-using FizzleMonogameTemplate.DebugGUI.Attributes;
-using FizzleGame.Scenes;
-using FizzleGame.Managers;
+using FizzleCrossword.DebugGUI;
+using FizzleCrossword.DebugGUI.Attributes;
+using FizzleCrossword.Scenes;
+using FizzleCrossword.Managers;
 using MonoGame.Extended.Screens.Transitions;
-using FizzleMonogameTemplate.Managers;
+using FizzleCrossword.Managers;
 
-namespace FizzleGame.Core;
+namespace FizzleCrossword.Core;
 
 public class Game1 : Game, IDebuggable
 {
@@ -15,7 +15,6 @@ public class Game1 : Game, IDebuggable
     private SpriteBatch spriteBatch;
     private Texture2D pixel;
     private TransitionManager transitionManager;
-
 
 
     [DebugVariable(true)]

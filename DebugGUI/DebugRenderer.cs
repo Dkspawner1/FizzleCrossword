@@ -9,7 +9,7 @@ using ImGuiVector2 = System.Numerics.Vector2;
 using ImGuiVector3 = System.Numerics.Vector3;
 using ImGuiVector4 = System.Numerics.Vector4;
 
-namespace FizzleMonogameTemplate.DebugGUI;
+namespace FizzleCrossword.DebugGUI;
 
 public static class DebugRenderer
 {

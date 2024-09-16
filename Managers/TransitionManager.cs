@@ -1,6 +1,6 @@
 using System;
 
-namespace FizzleMonogameTemplate.Managers;
+namespace FizzleCrossword.Managers;
 public class TransitionManager(Game1 game)
 {
     private readonly Game1 game = game;

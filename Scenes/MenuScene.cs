@@ -1,6 +1,6 @@
-using FizzleGame.Managers;
+using FizzleCrossword.Managers;
 
-namespace FizzleGame.Scenes;
+namespace FizzleCrossword.Scenes;
 
 public class MenuScene : SceneBase
 {

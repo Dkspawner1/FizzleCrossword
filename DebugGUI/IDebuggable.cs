@@ -1,3 +1,3 @@
 using System.Collections.Generic;
-namespace FizzleMonogameTemplate.DebugGUI;
+namespace FizzleCrossword.DebugGUI;
 public interface IDebuggable { List<DebugProperty> GetDebugProperties() => DebuggableHelper.GetDebugProperties(this); }

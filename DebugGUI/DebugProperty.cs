@@ -1,7 +1,7 @@
 
 using System;
 
-namespace FizzleMonogameTemplate.DebugGUI;
+namespace FizzleCrossword.DebugGUI;
 public class DebugProperty(string name, Type type, Type declaringType, Func<object> getter, Action<object> setter)
 {
     public string Name { get; set; } = name;

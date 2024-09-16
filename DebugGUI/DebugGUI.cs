@@ -6,7 +6,7 @@ using MonoGame.ImGuiNet;
 using ImGuiVector2 = System.Numerics.Vector2;
 using System.Collections.Generic;
 
-namespace FizzleMonogameTemplate.DebugGUI;
+namespace FizzleCrossword.DebugGUI;
 
 public class DebugGUI<T> where T : IDebuggable
 {

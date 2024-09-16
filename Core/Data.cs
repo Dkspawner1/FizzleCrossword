@@ -1,6 +1,6 @@
 using System;
 
-namespace FizzleGame.Core;
+namespace FizzleCrossword.Core;
 
 public static class Data
 {

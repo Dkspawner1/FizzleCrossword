@@ -1,10 +1,10 @@
 using System;
-using FizzleGame.ECS.Systems;
-using FizzleGame.Managers;
-using FizzleMonogameTemplate.DebugGUI.Attributes;
+using FizzleCrossword.ECS.Systems;
+using FizzleCrossword.Managers;
+using FizzleCrossword.DebugGUI.Attributes;
 using MonoGame.Extended.ECS.Systems;
 
-namespace FizzleGame.Scenes;
+namespace FizzleCrossword.Scenes;
 public class GameScene : SceneBase
 {
     [DebugVariable]

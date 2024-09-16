@@ -1,7 +1,7 @@
 using MonoGame.Extended.ECS.Systems;
 using MonoGame.Extended.Graphics;
 
-namespace FizzleGame.ECS.Systems;
+namespace FizzleCrossword.ECS.Systems;
 
 public class RenderSystem : EntityDrawSystem
 {

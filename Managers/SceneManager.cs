@@ -1,9 +1,9 @@
 using System;
-using FizzleGame.Scenes;
-using FizzleMonogameTemplate.Transitions;
+using FizzleCrossword.Scenes;
+using FizzleCrossword.Transitions;
 using MonoGame.Extended.Screens;
 
-namespace FizzleGame.Managers;
+namespace FizzleCrossword.Managers;
 
 public class SceneManager(Game1 game, ScreenManager screenManager)
 {

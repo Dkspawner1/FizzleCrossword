@@ -2,7 +2,7 @@ using System;
 using MonoGame.Extended;
 using MonoGame.Extended.Screens.Transitions;
 
-namespace FizzleMonogameTemplate.Transitions
+namespace FizzleCrossword.Transitions
 {
     public class FadeOutInTransition(GraphicsDevice graphicsDevice, Color color, float duration = 1f) : Transition(duration)
     {

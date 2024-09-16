@@ -5,9 +5,15 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Fonts/wordfont.spritefont</File>
+    <File>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn0.png</File>
+    <File>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn1.png</File>
+    <File>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn2.png</File>
     <File>C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/Summer1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

@@ -1,3 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Fonts/wordfont.spritefont","C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Fonts/wordfont.xnb","LocalizedFontProcessor","SpriteFontContent",2497,940,0.1684939
-"C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/Summer1.png","C:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/Summer1.xnb","TextureProcessor","Texture2DContent",75354,11944021,0.3023108
+"c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Fonts/wordfont.spritefont","c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Fonts/wordfont.xnb","LocalizedFontProcessor","SpriteFontContent",2497,940,0.6577988
+"c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn0.png","c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/btn0.xnb","TextureProcessor","Texture2DContent",486353,2537017,0.3870221
+"c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn1.png","c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/btn1.xnb","TextureProcessor","Texture2DContent",489040,2580025,0.1635863
+"c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/btn2.png","c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/btn2.xnb","TextureProcessor","Texture2DContent",486879,2579461,0.2002026
+"c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/Textures/Summer1.png","c:/Users/Nicholas/Desktop/C#/FizzleCrossword/Content/bin/DesktopGL/Content/Textures/Summer1.xnb","TextureProcessor","Texture2DContent",75354,11944021,0.420488

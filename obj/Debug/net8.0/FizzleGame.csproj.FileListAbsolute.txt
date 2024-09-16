@@ -132,3 +132,6 @@ C:\Users\Nicholas\Desktop\C#\FizzleCrossword\obj\Debug\net8.0\FizzleGame.genrunt
 C:\Users\Nicholas\Desktop\C#\FizzleCrossword\obj\Debug\net8.0\ref\FizzleGame.dll
 C:\Users\Nicholas\Desktop\C#\FizzleCrossword\bin\Debug\net8.0\Content\Fonts\wordfont.xnb
 C:\Users\Nicholas\Desktop\C#\FizzleCrossword\bin\Debug\net8.0\Content\Textures\Summer1.xnb
+C:\Users\Nicholas\Desktop\C#\FizzleCrossword\bin\Debug\net8.0\Content\Textures\btn0.xnb
+C:\Users\Nicholas\Desktop\C#\FizzleCrossword\bin\Debug\net8.0\Content\Textures\btn1.xnb
+C:\Users\Nicholas\Desktop\C#\FizzleCrossword\bin\Debug\net8.0\Content\Textures\btn2.xnb

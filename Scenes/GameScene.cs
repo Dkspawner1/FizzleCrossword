@@ -41,16 +41,7 @@ public class GameScene : SceneBase
         // Implement your debug drawing logic here
         // For example:
         spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
-        spriteBatch.DrawString(spriteFont, $"Test Vector: {test}", new Vector2(10, 10), Color.White);
+
 
     }
 

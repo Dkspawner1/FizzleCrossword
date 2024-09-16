@@ -39,7 +39,7 @@ public class Game1 : Game, IDebuggable
         transitionManager.TargetBackgroundColor = Color.DeepPink;
 
         sceneManager = new(this, screenManager);
-        sceneManager.ChangeScene(SCENES.GAME);
+        sceneManager.ChangeScene(SCENES.MENU);
         base.Initialize();
     }
 
